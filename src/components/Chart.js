@@ -1,9 +1,7 @@
-import {LineChart, Line, CartesianGrid, XAxis, YAxis} from 'recharts';
 import { useEffect,useState } from 'react';
 import axios from 'axios'; 
-import BrazilChart from './BrazilChart';
-import Form from './Form';
-import { useForm } from "../hooks/useForm";
+import Form1  from './Form';
+
 
 
 async function fetchData(country = "AFG") {
@@ -32,7 +30,7 @@ export default function ChartForBrazil() {
     },[])
     return (
         <div>
-            <Form chartData = {chartData} setData = {setData} dropDownData = {dropDownData} fetchData = {fetchData}/>
+            <Form1 chartData = {chartData} setData = {setData} dropDownData = {dropDownData} fetchData = {fetchData}/>
         </div>
     )
 }

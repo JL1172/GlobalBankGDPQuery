@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# React GDP History Graph with Form Field and Dark/Light Mode Toggle
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a Single Page Application (SPA) that utilizes React, custom hooks, and various libraries to create a dynamic form field with data persistence, a dark/light mode toggle, and a line graph displaying the GDP history of selected countries using Recharts. The project incorporates axios for handling GET and POST requests, and it's styled using a combination of styled-components, reactstrap, and bootstrap for an enhanced user interface.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Form Field with Data Persistence**: The application features a form field where users can input data. The input data persists even after the page is refreshed, enhancing the user experience.
 
-### `npm start`
+- **Dark/Light Mode Toggle**: Users can switch between dark and light modes for better visibility and personalization. The toggle provides a seamless transition between the two modes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **GDP History Graph using Recharts**: The project fetches historical GDP data for selected countries and presents it in an interactive line graph using the Recharts library. Users can visually analyze the GDP trends over time.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **GET and POST Requests with Axios**: Axios, a popular JavaScript library, is used to handle GET requests to fetch historical GDP data and POST requests to persist user input data. This ensures smooth communication with external APIs and data storage.
 
-### `npm test`
+- **Styled-components, Reactstrap, and Bootstrap**: The user interface is styled using a combination of styled-components, reactstrap, and bootstrap. This combination allows for a visually appealing and responsive design across various devices.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To run the project locally, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1.  Fork the repository
+2.  Clone the repository to your local machine.
+git clone https://github.com/your-username/your-repo.git
+3.  Install the project dependencies using npm with npm install
+4.  Start with npm run start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React
+- Custom Hooks
+- Recharts
+- Axios
+- Styled-components
+- Reactstrap
+- Bootstrap
 
-### `npm run eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project is licensed under the [MIT License](LICENSE).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Repository Link](https://github.com/JL1172/GlobalBankGDP)

@@ -9,7 +9,7 @@ const initialValue = {
 
 export default function Form1(props) {
     const {dropDownData,fetchData,chartData,setData} = props; 
-    const [data,changeData,submit,name] = useForm(initialValue,fetchData,dropDownData,chartData,setData); 
+    const [data,changeData,submit,name] = useForm("form",initialValue,fetchData,dropDownData,chartData,setData); 
     return(
         <div>
             <BrazilChart chartData = {props.chartData} name = {name}/>

@@ -1,7 +1,8 @@
 import { useState } from "react";
+import { useLocalStorage } from "./useLocalStorage";
 
-export const useForm = (initialValue, fetchData, dropDownData, chartData, setData2) => {
-    const [data, setData] = useState(initialValue);
+export const useForm = (key,initialValue, fetchData, dropDownData, chartData, setData2) => {
+    const [data, setData] = useLocalStorage(key,initialValue);
     const [name, setName] = useState("");
 
     const changeData = (e) => {
